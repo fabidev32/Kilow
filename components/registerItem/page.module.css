@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(252, 249, 249);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 5px;
+}
+
+.containerRegister{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerSectionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-family: 'Open Sans', sans-serif;
+    gap: 60px;
+}
+
+.containerSectionTwo {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    gap: 60px;
+}
+
+.containerImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D5D7B;
+    border-radius: 30px;
+    width: 760px;
+    height: 50%;
+}
+
+.containerTitle {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF5E8;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+}
+.subTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #9E9E9E;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+}
+

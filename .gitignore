@@ -1,0 +1,31 @@
+# Dependências (Nunca suba essa pasta, ela é gigante!)
+node_modules/
+
+# Builds e Saídas (Arquivos gerados automaticamente pelo Next.js)
+.next/
+out/
+build/
+
+# Variáveis de Ambiente (Segurança: senhas, chaves de API e tokens)
+.env
+.env.local
+.env.production
+
+# Arquivos de Log (Erros que o npm gera)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configurações de IDE (Arquivos do VS Code ou IntelliJ)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Se você usar Cypress para testes de QA
+cypress/videos/
+cypress/screenshots/
