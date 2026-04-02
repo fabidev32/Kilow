@@ -2,8 +2,8 @@
 
 
 import React, { useState } from 'react';
-import CustomInput from '../input/index';
-import ListSelect from '../listSelect/index';
+import CustomInput from '../../ui/input/index';
+import ListSelect from '../../ui/listSelect/index';
 import Style from './page.module.css';
 import Image from 'next/image';
 import image from './../../assets/images/image-register-item.png';

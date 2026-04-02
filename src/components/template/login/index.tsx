@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import CustomInput from '../input/index';
+import CustomInput from '../../ui/input/index';
 
 interface HandleChange {
     event: React.ChangeEvent<HTMLInputElement>;
